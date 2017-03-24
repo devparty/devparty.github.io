@@ -9,7 +9,17 @@
       height: 100%;
       width: 100%;
       font-size: 24px;
-      font-family: 'Raleway', 'sans-serif';
+      font-family: 'Raleway',
+                   -apple-system, 
+                   BlinkMacSystemFont, 
+                   "Segoe UI", 
+                   Roboto, 
+                   Oxygen,
+                   Ubuntu,
+                   Cantarell,
+                   "Open Sans",
+                   "Helvetica Neue", 
+                   sans-serif;
       margin: 0;
       padding: 0;
     }
@@ -21,23 +31,23 @@
       background-color: #002b36;
     }
     .text {
-        display: table-cell;
-        vertical-align: middle;
-        text-align: center;
-        height: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      height: 100%;
     }
     h1 {
       font-size: 2em;
     }
     .accent {
-        color: #859900;
+      color: #859900;
     }
     a {
-        color: #B58900;
-        text-decoration: none;
+      color: #B58900;
+      text-decoration: none;
     }
     a:hover {
-        border-bottom: 1px dotted #b58900;
+      border-bottom: 1px dotted #b58900;
     }
     p {
       font-size: 0.8em;
@@ -47,28 +57,28 @@
     }
 
     .button {
-        display: inline-block;
-        padding: 0.8em;
-        margin: 1em;
-        background-color: #268ad2;
-        color: #FFF;
-        border: 1px solid #002b36;
-        transition: opacity 0.2s;
-        text-transform: uppercase;
-        opacity: 0.8;
-        text-shadow: #839496 0 -1px 1px;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,.35),0 2px 2px rgba(0,0,0,.1725),transparent 0 0 0,transparent 0 0 0,transparent 0 0 0;
-        -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.35),0 2px 2px rgba(0,0,0,.1725),transparent 0 0 0,transparent 0 0 0,transparent 0 0 0;
-        border-bottom: 1px solid hsla(205, 69%, 39%, 1);
-        font-weight: normal;
+      display: inline-block;
+      padding: .8em;
+      margin: 1em;
+      background-color: #268ad2;
+      color: #FFF;
+      border: 1px solid #002b36;
+      transition: opacity .2s;
+      text-transform: uppercase;
+      opacity: .8;
+      text-shadow: #839496 0 -1px 1px;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.35),0 2px 2px rgba(0,0,0,.1725),transparent 0 0 0,transparent 0 0 0,transparent 0 0 0;
+      -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.35),0 2px 2px rgba(0,0,0,.1725),transparent 0 0 0,transparent 0 0 0,transparent 0 0 0;
+      border-bottom: 1px solid hsla(205, 69%, 39%, 1);
+      font-weight: normal;
     }
     .button:hover {
-        border-bottom: 1px solid hsla(205, 69%, 39%, 1);
-        opacity: 1;
+      border-bottom: 1px solid hsla(205, 69%, 39%, 1);
+      opacity: 1;
     }
 
     small {
-      font-size: 0.6em;
+      font-size: .6em;
     }
   </style>
 </head>
@@ -78,8 +88,11 @@
         <h1 class="accent">
           <#devparty/>
         </h1>
-        <p><span class="accent">#devparty</span> is a <a href="http://slack.com">Slack</a> community for developers ang geeks.</p>
-        <p>Talk to other devs, discuss technologies and new technique, create a new js framework while you're at it.</p>
+        <p><span class="accent">#devparty</span> is a <a href="http://slack.com">Slack</a> community for developers and geeks.</p>
+        <p>Talk to other devs, discuss technologies and new techniques, create a new js framework while you're at it.</p>
+        <p>We follow this <a href="https://github.com/confcodeofconduct/confcodeofconduct.com">code of conduct</a>.</p>
+        <p>Take a quick moment to read it, as we want <span class="accent">#devparty</span> to be a healthy community where everyone feels welcome.</p>
+        <p>If a member engages in any harassing behavior, we will warn the offender and if such behaviour continues it can lead to the expulsion from the community.</p>
         <a href="https://devparty.typeform.com/to/DcK6FC" class="button">Subscribe*</a>
         <p>Already subscribed? Login <a href="http://devparty.slack.com">here</a>.</p>
         <p><small>*Invitation may take up to 24h to arrive at your e-mail.</small></p>
